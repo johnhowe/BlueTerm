@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BlueTerm</string>
+
+	<string name="alert_dialog_no_bt">El bluetooth debe estar activado para poder usar esta aplicación.</string>
+	<string name="alert_dialog_yes">Si</string>
+	<string name="alert_dialog_no">No</string>
+	<string name="alert_dialog_warning_title">Atención</string>
+	<string name="alert_dialog_ok">Aceptar</string>
+	<string name="alert_dialog_turn_on_bt">This application needs the Bluetooth. Do you want turn on?</string>
+
+    <string name="not_connected">No está conectado al dispositivo</string>
+    <string name="title_connecting">conectando...</string>
+    <string name="title_connected_to">conectado: </string>
+    <string name="title_not_connected">no conectado</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">buscando dispositivos...</string>
+    <string name="select_device">Seleccione dispositivo</string>
+    <string name="none_paired">No hay dispositivos sincronizados</string>
+    <string name="none_found">No se han encontrado dispositivos</string>
+    <string name="title_paired_devices">Dispositivos sincronizados</string>
+    <string name="title_other_devices">Otros dispositivos disponibles</string>
+    <string name="button_scan">Buscar dispositivos</string>
+
+    <!-- Options Menu -->
+    <string name="connect">Conectarse a un dispositivo</string>
+    <string name="disconnect">Desconectar</string>
+    <string name="preferences">Preferencias</string>    
+    <string name="special_keys">Teclas especiales</string>
+    
+    <!-- Preference dialog -->
+    <string name="general_preferences">General</string>
+
+    <string name="title_localhecho_preference">Echo local</string>
+    <string name="summary_localecho_preference"></string>
+    
+    <string name="text_preferences">Texto</string>
+
+    <string name="title_fontsize_preference">Tamaño de la fuente</string>
+    <string name="summary_fontsize_preference">Tamaño de la fuente en puntos.</string>
+    <string name="dialog_title_fontsize_preference">Tamaño de la fuente</string>
+
+    <string name="title_color_preference">Colores</string>
+    <string name="summary_color_preference">Colores de la pantalla</string>
+    <string name="dialog_title_color_preference">Colores</string>
+
+    <string name="keyboard_preferences">Teclado</string>
+    <string name="title_controlkey_preference">Tecla Control</string>
+    <string name="summary_controlkey_preference">Seleccionar la tecla Control.</string>
+    <string name="dialog_title_controlkey_preference">Tecla Control</string>
+
+    <string name="title_document_key_press">Pulse</string>
+    <string name="title_document_key_rest">y después...</string>
+
+   <!-- Don't localize these default values -->
+   <string name="default_value_localecho_preference">false</string>
+   <string name="default_value_fontsize_preference">10</string>
+   <string name="default_value_color_preference">2</string>
+   <string name="default_value_controlkey_preference">0</string>
+</resources>
