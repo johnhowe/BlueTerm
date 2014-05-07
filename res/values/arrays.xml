@@ -90,6 +90,8 @@
         <item>\@</item>
         <item>Left Alt</item>
         <item>Right Alt</item>
+        <item>Volume Down</item>
+        <item>Volume Up</item>        
     </string-array>
 
 	<!-- Do not localize entryvalues -->

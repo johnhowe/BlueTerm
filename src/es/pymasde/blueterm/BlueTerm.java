@@ -158,7 +158,9 @@ public class BlueTerm extends Activity {
         KeyEvent.KEYCODE_DPAD_CENTER,
         KeyEvent.KEYCODE_AT,
         KeyEvent.KEYCODE_ALT_LEFT,
-        KeyEvent.KEYCODE_ALT_RIGHT
+        KeyEvent.KEYCODE_ALT_RIGHT,
+        KeyEvent.KEYCODE_VOLUME_DOWN,
+        KeyEvent.KEYCODE_VOLUME_UP
     };
 //    private static final String[] CONTROL_KEY_NAME = {
 //        "Ball", "@", "Left-Alt", "Right-Alt"
@@ -692,6 +694,10 @@ public class BlueTerm extends Activity {
     
     private void doPreferences() {
         startActivity(new Intent(this, TermPreferences.class));
+    }
+    
+    public void doOpenOptionsMenu() {
+        openOptionsMenu();
     }
 
     private void setColors() {
@@ -3036,7 +3042,7 @@ class EmulatorView extends View implements GestureDetector.OnGestureListener {
         mTopRow = 0;
         mLeftColumn = 0;
         mGestureDetector = new GestureDetector(context, this, null);
-        mGestureDetector.setIsLongpressEnabled(false);
+        mGestureDetector.setIsLongpressEnabled( true );
         setVerticalScrollBarEnabled(true);
     }
 
@@ -3130,14 +3136,16 @@ class EmulatorView extends View implements GestureDetector.OnGestureListener {
     // Begin GestureDetector.OnGestureListener methods
 
     public boolean onSingleTapUp(MotionEvent e) {
+    	
     	mBlueTerm.toggleKeyboard();
-
         return true;
     }
 
     public void onLongPress(MotionEvent e) {
+    	mBlueTerm.doOpenOptionsMenu();
     }
 
+    @Override
     public boolean onScroll(MotionEvent e1, MotionEvent e2, float distanceX, float distanceY) {
         distanceY += mScrollRemainder;
         int deltaRows = (int) (distanceY / mCharacterHeight);
@@ -3148,7 +3156,7 @@ class EmulatorView extends View implements GestureDetector.OnGestureListener {
         invalidate();
 
         return true;
-   }
+    }
 
     public void onSingleTapConfirmed(MotionEvent e) {
     }

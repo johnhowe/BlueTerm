@@ -2,7 +2,7 @@
 <resources>
     
     <string name="app_name">BlueTerm</string>
-    <string name="app_version">1.1.0</string>
+    <string name="app_version">1.1.1</string>
     
 	<string name="alert_dialog_no_bt">Cannot use this application without bluetooth.</string>
 	<string name="alert_dialog_yes">Yes</string>

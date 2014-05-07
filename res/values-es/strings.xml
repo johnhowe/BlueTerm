@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">BlueTerm</string>
-    <string name="app_version">1.1.0</string>
+    <string name="app_version">1.1.1</string>
 
 	<string name="alert_dialog_no_bt">El bluetooth debe estar activado para poder usar esta aplicación.</string>
 	<string name="alert_dialog_yes">Si</string>
