@@ -1,0 +1,39 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/pymasdeabout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dip"
+            android:paddingLeft="30dip"
+            android:paddingRight="30dip"
+            android:src="@drawable/pymasdeabout" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/pymasde_es"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dip"
+            android:paddingBottom="30dip"
+            android:singleLine="true"
+            android:text="@string/pymasde_es" />
+
+        <Button
+            android:id="@+id/buttonDialog"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alert_dialog_ok" >
+        </Button>
+    </LinearLayout>
+
+</ScrollView>

@@ -2,7 +2,8 @@
 <resources>
     
     <string name="app_name">BlueTerm</string>
-
+    <string name="app_version">1.1.0</string>
+    
 	<string name="alert_dialog_no_bt">Cannot use this application without bluetooth.</string>
 	<string name="alert_dialog_yes">Yes</string>
 	<string name="alert_dialog_no">No</string>
@@ -10,6 +11,10 @@
 	<string name="alert_dialog_ok">Ok</string>
 	<string name="alert_dialog_turn_on_bt">This application needs the Bluetooth. Do you want turn on?</string>
 
+	<string name="toast_connected_to">Connected to</string>
+	<string name="toast_unable_to_connect">Unable to connect device</string>
+	<string name="toast_connection_lost">Device connection was lost</string>
+			
     <string name="not_connected">You are not connected to a device</string>
     <string name="title_connecting">connecting...</string>
     <string name="title_connected_to">connected: </string>
@@ -35,7 +40,23 @@
 
     <string name="title_localhecho_preference">Local echo</string>
     <string name="summary_localecho_preference">Display the key strokes</string>
+
+    <string name="title_allowinsecureconnections_preference">Allow insecure connections</string>
+    <string name="summary_allowinsecureconnections_preference">Allow bluetooth insecure connections</string>
     
+	<string name="incoming_end_of_line">Incoming End of Line</string>
+	<string name="outgoing_end_of_line">Outgoing End of Line</string>
+
+    <string name="title_end_of_line_0D_preference">CR (0x0D) character</string>
+    <string name="summary_end_of_line_0D_preference"></string>
+    <string name="dialog_title_incoming_end_of_line_0D_preference">Incoming CR (0x0D) character</string>
+    <string name="dialog_title_outgoing_end_of_line_0D_preference">Outgoing CR (0x0D) character</string>
+    
+    <string name="title_end_of_line_0A_preference">LF (0x0A) character</string>
+    <string name="summary_end_of_line_0A_preference"></string>
+    <string name="dialog_title_incoming_end_of_line_0A_preference">Incoming LF (0x0A) character</string>
+    <string name="dialog_title_outgoing_end_of_line_0A_preference">Outgoing LF (0x0A) character</string>    
+
     <string name="text_preferences">Text</string>
 
     <string name="title_fontsize_preference">Font size</string>
@@ -53,10 +74,26 @@
 
     <string name="title_document_key_press">Press</string>
     <string name="title_document_key_rest">and Key</string>
+    
+    <string name="menu_start_logging">Start logging</string>
+    <string name="menu_stop_logging">Stop logging</string>
+    <string name="menu_logging_started">Logging started</string>
+    <string name="menu_logging_stopped">Logging stopped</string>
+    <string name="menu_about">About</string>
+    
+    <string name="title_screenorientation_preference">Screen orientation</string>
+    <string name="summary_screenorientation_preference">Choose the screen orientation</string>
+    <string name="dialog_title_screenorientation_preference">Screen orientation</string>
+    
+    <string name="pymasde_es">http://pymasde.es/</string>
 
    <!-- Don't localize these default values -->
    <string name="default_value_localecho_preference">false</string>
+   <string name="default_value_allowinsecureconnections_preference">true</string>
    <string name="default_value_fontsize_preference">10</string>
    <string name="default_value_color_preference">2</string>
    <string name="default_value_controlkey_preference">0</string>
+   <string name="default_value_end_of_line_0D_preference">13</string>
+   <string name="default_value_end_of_line_0A_preference">10</string>
+   <string name="default_screenorientation_preference">0</string>
 </resources>

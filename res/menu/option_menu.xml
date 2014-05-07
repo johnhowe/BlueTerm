@@ -22,7 +22,12 @@
           android:title="@string/preferences" />
     <item android:id="@+id/menu_special_keys"
           android:icon="@android:drawable/ic_menu_info_details"
-    	  android:title="@string/special_keys" />          
+    	  android:title="@string/special_keys" />
+    <item android:id="@+id/menu_start_stop_save"
+          android:icon="@android:drawable/ic_menu_save"
+    	  android:title="@string/menu_start_logging" />
+    <item android:id="@+id/menu_about"
+          android:icon="@android:drawable/ic_menu_help"
+    	  android:title="@string/menu_about" />
 </menu>
-
 

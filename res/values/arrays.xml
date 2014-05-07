@@ -48,6 +48,36 @@
         <item>White text on blue</item>  
     </string-array>
 
+    <string-array name="entries_end_of_line_0D_preference">
+        <item>Do not change</item>
+        <item>Remove character</item>
+        <item>Replace by LF (0x0A)</item>
+        <item>Replace by CRLF (0x0D0A)</item>
+    </string-array>
+
+	<!-- Do not localize entryvalues -->
+    <string-array name="entryvalues_end_of_line_0D_preference">
+        <item>13</item>
+        <item>0</item>
+        <item>10</item>
+        <item>3338</item>  
+    </string-array>
+    
+    <string-array name="entries_end_of_line_0A_preference">
+        <item>Do not change</item>
+        <item>Remove character</item>
+        <item>Replace by CR (0x0D)</item>
+        <item>Replace by CRLF (0x0D0A)</item>
+    </string-array>
+
+	<!-- Do not localize entryvalues -->
+    <string-array name="entryvalues_end_of_line_0A_preference">
+        <item>10</item>
+        <item>0</item>
+        <item>13</item>
+        <item>3338</item>  
+    </string-array>
+    
 	<!-- Do not localize entryvalues -->
     <string-array name="entryvalues_color_preference">
         <item>0</item>
@@ -69,4 +99,17 @@
         <item>2</item>
         <item>3</item>
     </string-array>
+    
+   <string-array name="entries_screenorientation_preference">
+	   <item>Auto</item>
+	   <item>Portrait</item>
+	   <item>Landscape</item>  
+   </string-array>
+   
+  <!-- Do not localize entryvalues -->
+  <string-array name="entryvalues_screenorientation_preference">
+	  <item>0</item>
+	  <item>1</item>
+	  <item>2</item>
+  </string-array>
 </resources>

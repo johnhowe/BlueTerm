@@ -16,6 +16,31 @@
  -->
 
 <resources>
+    <string-array name="entries_fontsize_preference">
+        <item>6 pt</item>
+        <item>7 pt</item>
+        <item>8 pt</item>
+        <item>9 pt</item>
+        <item>10 pt</item>
+        <item>12 pt</item>
+        <item>14 pt</item>
+        <item>16 pt</item>
+        <item>20 pt</item>
+    </string-array>
+
+	<!-- Do not localize entryvalues -->
+    <string-array name="entryvalues_fontsize_preference">
+        <item>0</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>20</item>  
+    </string-array>
 
     <string-array name="entries_color_preference">
         <item>Texto negro, fondo blanco</item>
@@ -29,4 +54,62 @@
         <item>Alt izquierda</item>
         <item>Alt derecha</item>
     </string-array>
+    
+	<!-- Do not localize entryvalues -->
+    <string-array name="entryvalues_end_of_line_0D_preference">
+        <item>13</item>
+        <item>0</item>
+        <item>10</item>
+        <item>3338</item>  
+    </string-array>
+
+    <string-array name="entries_end_of_line_0D_preference">
+        <item>No cambiar</item>
+        <item>Eliminar caracter</item>
+        <item>Reemplazar por LF (0x0A)</item>
+        <item>Reemplazar por CRLF (0x0D0A)</item>
+    </string-array>
+    
+	<!-- Do not localize entryvalues -->
+    <string-array name="entryvalues_end_of_line_0A_preference">
+        <item>10</item>
+        <item>0</item>
+        <item>13</item>
+        <item>3338</item>  
+    </string-array>
+    
+	<!-- Do not localize entryvalues -->
+    <string-array name="entryvalues_color_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>  
+    </string-array>
+
+    <string-array name="entries_end_of_line_0A_preference">
+        <item>No cambiar</item>
+        <item>Eliminar caracter</item>
+        <item>Reemplazar por CR (0x0D)</item>
+        <item>Reemplazar por CRLF (0x0D0A)</item>
+    </string-array>
+    
+	<!-- Do not localize entryvalues -->
+    <string-array name="entryvalues_controlkey_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="entries_screenorientation_preference">
+	   <item>Auto</item>
+	   <item>Vertical</item>
+	   <item>Horizontal</item>  
+    </string-array>
+    
+  <!-- Do not localize entryvalues -->
+  <string-array name="entryvalues_screenorientation_preference">
+	  <item>0</item>
+	  <item>1</item>
+	  <item>2</item>
+  </string-array>
 </resources>
